@@ -52,12 +52,12 @@ bulundurur.
 Stateful yapı, bir programın durum bilgisini saklayan ve bu duruma göre işlem yapan bir yapıdır. Stateful yapılar,
 geçmiş işlemlere bağlı olarak çalışan uygulamalar için kullanılır
 
-ornek/ Bir anne alisveris sepetindeki tum urunleri ve evdeki tum urunleri bilir
+ornek/ Farklı clusterlarda çalışan bir programda session bazlı sepetteki ürünler tutulursa diğer makinada bu ürünler gözükmez,sorun oluşur
 
 Stateless yapı ise, her işlemi bağımsız olarak ele alan ve önceki işlemlerle bir ilişkisi olmayan bir yapıdır. Stateless
 yapılar, her işlemi bağımsız olarak ele alan ve hızlı yanıt veren uygulamalar için tercih edilir.
 
-ornek/ Bir cocuk sadece canin istedigi urunleri alir
+ornek/ Sepetteki ürünler session değil db üzerinde tutulmalı
 
 </details>
 
